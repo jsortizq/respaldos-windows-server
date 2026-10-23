@@ -1,0 +1,20 @@
+{
+  "Destino": "E:\\Respaldos",
+  "DiasRetencion": 14,
+  "EspacioMinimoGB": 20,
+  "Origenes": [
+    { "Nombre": "Compartida",  "Ruta": "D:\\Compartida", "Excluir": ["*.tmp", "~$*", "Thumbs.db"] },
+    { "Nombre": "Contabilidad", "Ruta": "D:\\Contabilidad" },
+    { "Nombre": "SQLBackups",  "Ruta": "D:\\SQL\\Backups" }
+  ],
+  "Correo": {
+    "Habilitado": false,
+    "Servidor": "smtp.gmail.com",
+    "Puerto": 587,
+    "UsarSSL": true,
+    "De": "respaldos@miempresa.com",
+    "Para": "sistemas@miempresa.com",
+    "Usuario": "respaldos@miempresa.com",
+    "ArchivoClave": "C:\\Scripts\\Respaldos\\smtp.clave"
+  }
+}
